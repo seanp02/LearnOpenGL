@@ -1,0 +1,22 @@
+/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -G Ninja -S /home/seanp/Desktop/git/LearnOpenGL/HelloWindow -B /home/seanp/Desktop/git/LearnOpenGL/HelloWindow/cmake-build-debug
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Doxygen: /usr/bin/doxygen (found version "1.9.7") found components: doxygen 
+-- Using X11 for window creation
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so
+-- Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/seanp/Desktop/git/LearnOpenGL/HelloWindow/cmake-build-debug
