@@ -12,7 +12,10 @@ const unsigned int SCR_HEIGHT = 600;
 
 int main()
 {
-    int status = 1;
+    double r = 0.0f;
+    double g = 0.0f;
+    double b = 0.0f;
+
     // glfw: initialize and configure
     // ------------------------------
     glfwInit();
@@ -53,61 +56,33 @@ int main()
         processInput(window);
         if(glfwGetKey(window, GLFW_KEY_F1) == GLFW_PRESS)
         {
-            status = 1;
+            r -= 0.01;
         }
         else if(glfwGetKey(window, GLFW_KEY_F2) == GLFW_PRESS)
         {
-            status = 2;
+            r += 0.01;
         }
         else if(glfwGetKey(window, GLFW_KEY_F3) == GLFW_PRESS)
         {
-            status = 3;
+            g -= 0.01;
         }
         else if(glfwGetKey(window, GLFW_KEY_F4) == GLFW_PRESS)
         {
-            status = 4;
+            g += 0.01;
         }
         else if(glfwGetKey(window, GLFW_KEY_F5) == GLFW_PRESS)
         {
-            status = 5;
+            b -= 0.01;
         }
         else if(glfwGetKey(window, GLFW_KEY_F6) == GLFW_PRESS)
         {
-            status = 6;
+            b += 0.01;
         }
 
         // render
         // ------
-        if (status == 1)
-        {
-            glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
-        }
-        else if (status == 2)
-        {
-            glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
-        }
-        else if (status == 3)
-        {
-            glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
-        }
-        else if (status == 4)
-        {
-            glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
-        }
-        else if (status == 5)
-        {
-            glClearColor(0.5f, 0.5f, 0.0f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
-        }
-        else if (status == 6)
-        {
-            glClearColor(0.0f, 0.5f, 0.5f, 1.0f);
-            glClear(GL_COLOR_BUFFER_BIT);
-        }
+        glClearColor(r, g, b, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------

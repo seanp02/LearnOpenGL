@@ -12,7 +12,7 @@ find_package(OpenGL REQUIRED)
 add_library(glad src/glad.c)
 
 # Add GLFW library
-add_subdirectory(glfw-3.3.9)
+add_subdirectory(glfw-3.4)
 
 # Include directories
 include_directories(
