@@ -7,16 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/seanp/Desktop/Camera_movement/CMakeLists.txt"
-  "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
-  "CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.27.8/CMakeSystem.cmake"
-  "/home/seanp/Desktop/Camera_movement/glfw-3.4/CMake/cmake_uninstall.cmake.in"
-  "/home/seanp/Desktop/Camera_movement/glfw-3.4/CMake/glfw3.pc.in"
-  "/home/seanp/Desktop/Camera_movement/glfw-3.4/CMake/glfw3Config.cmake.in"
-  "/home/seanp/Desktop/Camera_movement/glfw-3.4/CMakeLists.txt"
-  "/home/seanp/Desktop/Camera_movement/glfw-3.4/docs/CMakeLists.txt"
-  "/home/seanp/Desktop/Camera_movement/glfw-3.4/src/CMakeLists.txt"
   "/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in"
   "/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
@@ -134,6 +124,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/ProcessorCount.cmake"
   "/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake"
   "/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/CMakeLists.txt"
+  "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
+  "CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.27.8/CMakeSystem.cmake"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/CMake/cmake_uninstall.cmake.in"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/CMake/glfw3.pc.in"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/CMake/glfw3Config.cmake.in"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/CMakeLists.txt"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/docs/CMakeLists.txt"
+  "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

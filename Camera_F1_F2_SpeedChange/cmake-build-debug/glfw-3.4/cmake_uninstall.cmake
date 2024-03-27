@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/seanp/Desktop/Camera_movement/cmake-build-debug/glfw-3.4/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/seanp/Desktop/Camera_movement/cmake-build-debug/glfw-3.4/install_manifest.txt\"")
+if (NOT EXISTS "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/glfw-3.4/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/glfw-3.4/install_manifest.txt\"")
 endif()
 
-file(READ "/home/seanp/Desktop/Camera_movement/cmake-build-debug/glfw-3.4/install_manifest.txt" files)
+file(READ "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/glfw-3.4/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -265,15 +265,15 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/seanp/Desktop/Camera_movement/glfw-3.4/include"
+					"path" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/seanp/Desktop/Camera_movement/glfw-3.4/src"
+					"path" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/src"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/seanp/Desktop/Camera_movement/cmake-build-debug/glfw-3.4/src"
+					"path" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/glfw-3.4/src"
 				}
 			],
 			"language" : "C",

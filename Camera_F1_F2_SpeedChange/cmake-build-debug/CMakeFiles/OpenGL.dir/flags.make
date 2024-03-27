@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib64/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/seanp/Desktop/Camera_movement/include -I/home/seanp/Desktop/Camera_movement/glfw-3.4/include
+CXX_INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/include -I/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/glfw-3.4/include
 
 CXX_FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
 

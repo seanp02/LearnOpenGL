@@ -38,6 +38,8 @@ float rotateSpeed = 20.0f;
 
 float accumulatedRotations[10] = {0};
 
+bool pause = false;
+
 int main()
 {
     // glfw: initialize and configure
@@ -266,7 +268,9 @@ int main()
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, cubePositions[i]);
 
-            accumulatedRotations[i] += rotateSpeed * deltaTime;
+            if (pause == false)
+                accumulatedRotations[i] += rotateSpeed * deltaTime;
+
             if (i % 3 == 0)
                 model = glm::rotate(model, glm::radians(accumulatedRotations[i]), glm::vec3(1.0f, 0.3f, 0.5f));
             else if (i % 3 == 1)
@@ -313,17 +317,19 @@ int main()
 void processInput(GLFWwindow* window)
 {
     static bool pressed_f1_f2[2] = {false, };
+    static bool pressed_space = false;
+
     for (int i = 0; i < 2; i++){
         if (glfwGetKey(window, GLFW_KEY_F1 + i) == GLFW_PRESS)
             pressed_f1_f2[i] = true;
-        if (glfwGetKey(window, GLFW_KEY_F1 + i) == GLFW_RELEASE && pressed_f1_f2[i]==true) {
+        if (glfwGetKey(window, GLFW_KEY_F1 + i) == GLFW_RELEASE && pressed_f1_f2[i] == true) {
             if(i==0) {
-                rotateSpeed -= 1.1;
+                rotateSpeed -= 5.0;
                 pressed_f1_f2[i] = false;
             }
             if(i==1)
             {
-                rotateSpeed += 1.1;
+                rotateSpeed += 5.0;
                 pressed_f1_f2[i] = false;
             }
         }
@@ -340,6 +346,14 @@ void processInput(GLFWwindow* window)
         camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         camera.ProcessKeyboard(RIGHT, deltaTime);
+
+    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
+        pressed_space = true;
+    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_RELEASE && pressed_space == true)
+    {
+        pause = !pause;
+        pressed_space = false;
+    }
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes

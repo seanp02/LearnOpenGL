@@ -4,7 +4,7 @@
 # compile C with /usr/lib64/ccache/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/seanp/Desktop/Camera_movement/include
+C_INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/include
 
 C_FLAGS = -g -fdiagnostics-color=always
 

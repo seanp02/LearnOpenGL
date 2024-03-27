@@ -971,8 +971,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/seanp/Desktop/Camera_movement/cmake-build-debug",
-		"source" : "/home/seanp/Desktop/Camera_movement"
+		"build" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug",
+		"source" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange"
 	},
 	"version" : 
 	{

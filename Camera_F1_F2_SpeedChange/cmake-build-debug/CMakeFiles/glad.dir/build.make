@@ -53,10 +53,10 @@ RM = /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seanp/Desktop/Camera_movement
+CMAKE_SOURCE_DIR = /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seanp/Desktop/Camera_movement/cmake-build-debug
+CMAKE_BINARY_DIR = /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glad.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/glad.dir/progress.make
 include CMakeFiles/glad.dir/flags.make
 
 CMakeFiles/glad.dir/src/glad.c.o: CMakeFiles/glad.dir/flags.make
-CMakeFiles/glad.dir/src/glad.c.o: /home/seanp/Desktop/Camera_movement/src/glad.c
+CMakeFiles/glad.dir/src/glad.c.o: /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/src/glad.c
 CMakeFiles/glad.dir/src/glad.c.o: CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/seanp/Desktop/Camera_movement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/src/glad.c.o"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /home/seanp/Desktop/Camera_movement/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/src/glad.c.o"
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/src/glad.c
 
 CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/seanp/Desktop/Camera_movement/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
 
 CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/seanp/Desktop/Camera_movement/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -93,7 +93,7 @@ glad_EXTERNAL_OBJECTS =
 libglad.a: CMakeFiles/glad.dir/src/glad.c.o
 libglad.a: CMakeFiles/glad.dir/build.make
 libglad.a: CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/seanp/Desktop/Camera_movement/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 CMakeFiles/glad.dir/depend:
-	cd /home/seanp/Desktop/Camera_movement/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seanp/Desktop/Camera_movement /home/seanp/Desktop/Camera_movement /home/seanp/Desktop/Camera_movement/cmake-build-debug /home/seanp/Desktop/Camera_movement/cmake-build-debug /home/seanp/Desktop/Camera_movement/cmake-build-debug/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug /home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/glad.dir/depend
 

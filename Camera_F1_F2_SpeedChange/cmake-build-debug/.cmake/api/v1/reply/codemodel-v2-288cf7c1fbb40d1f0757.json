@@ -115,21 +115,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL-Debug-0f2b38e3ba42101ea207.json",
+					"jsonFile" : "target-OpenGL-Debug-0286044f131e93c8db0e.json",
 					"name" : "OpenGL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-5aab39d98cae71f79ff3.json",
+					"jsonFile" : "target-glad-Debug-170e9100d49349af13ba.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@e31d138322de72f6ba56",
-					"jsonFile" : "target-glfw-Debug-8823902510337453d1e7.json",
+					"jsonFile" : "target-glfw-Debug-d5bb1ae8463b6060d280.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -153,8 +153,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/seanp/Desktop/Camera_movement/cmake-build-debug",
-		"source" : "/home/seanp/Desktop/Camera_movement"
+		"build" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange/cmake-build-debug",
+		"source" : "/home/seanp/Desktop/git/LearnOpenGL/Camera_F1_F2_SpeedChange"
 	},
 	"version" : 
 	{
