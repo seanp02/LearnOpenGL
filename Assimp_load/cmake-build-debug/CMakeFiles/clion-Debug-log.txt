@@ -1,0 +1,30 @@
+/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/seanp/Desktop/Assimp_load -B /home/seanp/Desktop/Assimp_load/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+CMake Warning (dev) at /usr/lib64/cmake/assimp-5.0/assimpTargets.cmake:54 (if):
+  if given arguments:
+
+    "ON"
+
+  An argument named "ON" appears in a conditional statement.  Policy CMP0012
+  is not set: if() recognizes numbers and boolean constants.  Run "cmake
+  --help-policy CMP0012" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/assimp-5.0/assimp-config.cmake:1 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Including Wayland support
+-- Including X11 support
+-- Documentation generation requires Doxygen 1.9.8 or later
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/seanp/Desktop/Assimp_load/cmake-build-debug
