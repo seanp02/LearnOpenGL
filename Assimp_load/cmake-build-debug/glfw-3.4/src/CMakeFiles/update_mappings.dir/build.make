@@ -53,10 +53,10 @@ RM = /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seanp/Desktop/Assimp_load
+CMAKE_SOURCE_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seanp/Desktop/Assimp_load/cmake-build-debug
+CMAKE_BINARY_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include glfw-3.4/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include glfw-3.4/src/CMakeFiles/update_mappings.dir/progress.make
 
 glfw-3.4/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/seanp/Desktop/Assimp_load/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/Assimp_load/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: glfw-3.4/src/CMakeFiles/update_mappings
 update_mappings: glfw-3.4/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ glfw-3.4/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : glfw-3.4/src/CMakeFiles/update_mappings.dir/build
 
 glfw-3.4/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 
 glfw-3.4/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seanp/Desktop/Assimp_load /home/seanp/Desktop/Assimp_load/glfw-3.4/src /home/seanp/Desktop/Assimp_load/cmake-build-debug /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4/src /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seanp/Desktop/git/LearnOpenGL/Assimp_load /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/glfw-3.4/src /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4/src /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 

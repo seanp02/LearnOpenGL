@@ -4,7 +4,7 @@
 # compile C with /usr/lib64/ccache/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/seanp/Desktop/Assimp_load/include
+C_INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/include
 
 C_FLAGS = -g -fdiagnostics-color=always
 

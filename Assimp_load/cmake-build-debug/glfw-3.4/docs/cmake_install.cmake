@@ -1,4 +1,4 @@
-# Install script for directory: /home/seanp/Desktop/Assimp_load/glfw-3.4/docs
+# Install script for directory: /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/glfw-3.4/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

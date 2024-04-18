@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib64/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/seanp/Desktop/Assimp_load/include -I/home/seanp/Desktop/Assimp_load/glfw-3.4/include
+CXX_INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/include -I/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/glfw-3.4/include
 
 CXX_FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
 

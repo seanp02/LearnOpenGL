@@ -223,7 +223,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/seanp/Desktop/Assimp_load/cmake-build-debug"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -811,7 +811,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/seanp/Desktop/Assimp_load/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -931,7 +931,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/seanp/Desktop/Assimp_load"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1983,7 +1983,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -2115,7 +2115,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/seanp/Desktop/Assimp_load/glfw-3.4"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/glfw-3.4"
 		},
 		{
 			"name" : "HAVE_MEMFD_CREATE",
@@ -2347,7 +2347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/seanp/Desktop/Assimp_load/cmake-build-debug"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug"
 		},
 		{
 			"name" : "OpenGLProject_IS_TOP_LEVEL",
@@ -2371,7 +2371,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/seanp/Desktop/Assimp_load"
+			"value" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load"
 		},
 		{
 			"name" : "PKG_CONFIG_ARGN",

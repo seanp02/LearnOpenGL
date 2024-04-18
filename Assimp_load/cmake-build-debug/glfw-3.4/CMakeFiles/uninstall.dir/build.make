@@ -53,10 +53,10 @@ RM = /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seanp/Desktop/Assimp_load
+CMAKE_SOURCE_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seanp/Desktop/Assimp_load/cmake-build-debug
+CMAKE_BINARY_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include glfw-3.4/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw-3.4/CMakeFiles/uninstall.dir/progress.make
 
 glfw-3.4/CMakeFiles/uninstall:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4/cmake_uninstall.cmake
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4/cmake_uninstall.cmake
 
 uninstall: glfw-3.4/CMakeFiles/uninstall
 uninstall: glfw-3.4/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ glfw-3.4/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw-3.4/CMakeFiles/uninstall.dir/build
 
 glfw-3.4/CMakeFiles/uninstall.dir/clean:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw-3.4/CMakeFiles/uninstall.dir/clean
 
 glfw-3.4/CMakeFiles/uninstall.dir/depend:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seanp/Desktop/Assimp_load /home/seanp/Desktop/Assimp_load/glfw-3.4 /home/seanp/Desktop/Assimp_load/cmake-build-debug /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4 /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seanp/Desktop/git/LearnOpenGL/Assimp_load /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/glfw-3.4 /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4 /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.4/CMakeFiles/uninstall.dir/depend
 

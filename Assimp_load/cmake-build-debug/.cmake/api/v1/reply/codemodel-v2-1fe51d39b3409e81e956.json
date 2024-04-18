@@ -115,21 +115,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL-Debug-a8aee10195c785067a06.json",
+					"jsonFile" : "target-OpenGL-Debug-ccaa55954c1743aa0917.json",
 					"name" : "OpenGL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-861fca13fc7a2c41fe79.json",
+					"jsonFile" : "target-glad-Debug-b2c5a460a16b5db413a4.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@e31d138322de72f6ba56",
-					"jsonFile" : "target-glfw-Debug-58375f9a3e5b17d4dae2.json",
+					"jsonFile" : "target-glfw-Debug-cab44750ae92ec075ed3.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -153,8 +153,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/seanp/Desktop/Assimp_load/cmake-build-debug",
-		"source" : "/home/seanp/Desktop/Assimp_load"
+		"build" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug",
+		"source" : "/home/seanp/Desktop/git/LearnOpenGL/Assimp_load"
 	},
 	"version" : 
 	{

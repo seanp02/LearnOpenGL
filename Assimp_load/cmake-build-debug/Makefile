@@ -57,10 +57,10 @@ RM = /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seanp/Desktop/Assimp_load
+CMAKE_SOURCE_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seanp/Desktop/Assimp_load/cmake-build-debug
+CMAKE_BINARY_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/Assimp_load/cmake-build-debug/CMakeFiles /home/seanp/Desktop/Assimp_load/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/CMakeFiles /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/Assimp_load/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

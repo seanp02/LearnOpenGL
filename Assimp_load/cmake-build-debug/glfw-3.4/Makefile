@@ -57,10 +57,10 @@ RM = /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seanp/Desktop/Assimp_load
+CMAKE_SOURCE_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seanp/Desktop/Assimp_load/cmake-build-debug
+CMAKE_BINARY_DIR = /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/Assimp_load/cmake-build-debug/CMakeFiles /home/seanp/Desktop/Assimp_load/cmake-build-debug/glfw-3.4//CMakeFiles/progress.marks
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/Assimp_load/cmake-build-debug/CMakeFiles 0
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/CMakeFiles /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/glfw-3.4//CMakeFiles/progress.marks
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/clean
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/preinstall
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/preinstall
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glfw-3.4/CMakeFiles/uninstall.dir/rule:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/CMakeFiles/uninstall.dir/rule
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.4/CMakeFiles/uninstall.dir/rule
 .PHONY : glfw-3.4/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ uninstall: glfw-3.4/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f glfw-3.4/CMakeFiles/uninstall.dir/build.make glfw-3.4/CMakeFiles/uninstall.dir/build
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(MAKE) $(MAKESILENT) -f glfw-3.4/CMakeFiles/uninstall.dir/build.make glfw-3.4/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -199,6 +199,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/seanp/Desktop/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/seanp/Desktop/git/LearnOpenGL/Assimp_load/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
