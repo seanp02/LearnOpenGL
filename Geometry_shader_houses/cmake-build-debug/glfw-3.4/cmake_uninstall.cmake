@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/install_manifest.txt\"")
+if (NOT EXISTS "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/install_manifest.txt\"")
 endif()
 
-file(READ "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/install_manifest.txt" files)
+file(READ "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -1,4 +1,4 @@
-# Install script for directory: /home/seanp/Desktop/Geometry_shader_houses/glfw-3.4
+# Install script for directory: /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/glfw-3.4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/cmake_install.cmake")
+  include("/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/docs/cmake_install.cmake")
+  include("/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/docs/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/seanp/Desktop/Geometry_shader_houses/glfw-3.4/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/glfw-3.4/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES
-    "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/glfw3Config.cmake"
-    "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/glfw3ConfigVersion.cmake"
+    "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/glfw3Config.cmake"
+    "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -67,7 +67,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3/glfw3Targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3/glfw3Targets.cmake"
-         "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
+         "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3/glfw3Targets-*.cmake")
       if(_cmake_old_config_files)
@@ -80,13 +80,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug/glfw-3.4/src/glfw3.pc")
 endif()
 

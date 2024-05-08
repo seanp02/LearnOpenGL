@@ -115,21 +115,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL-Debug-dd6871cdde9d9770e7e7.json",
+					"jsonFile" : "target-OpenGL-Debug-fdc0dba0eb22fe1dcb40.json",
 					"name" : "OpenGL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-fc1cf7a65a85308984d8.json",
+					"jsonFile" : "target-glad-Debug-aba214d451f8486fb00a.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@e31d138322de72f6ba56",
-					"jsonFile" : "target-glfw-Debug-018a3436a724ba93046e.json",
+					"jsonFile" : "target-glfw-Debug-44104a71aa5a3aa6ddbd.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -153,8 +153,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/seanp/Desktop/Geometry_shader_houses/cmake-build-debug",
-		"source" : "/home/seanp/Desktop/Geometry_shader_houses"
+		"build" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses/cmake-build-debug",
+		"source" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_houses"
 	},
 	"version" : 
 	{
