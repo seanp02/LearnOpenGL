@@ -15,7 +15,7 @@ vec4 explode(vec4 position, vec3 normal)
     float delay = 4.0;
     if (time >= delay) {
         float magnitude = 2.0;
-        vec3 direction = normal * (time - delay) * magnitude;
+        vec3 direction = normal * pow((time - delay), 1.05) * magnitude;
         return position + vec4(direction, 0.0);
     }
     else
