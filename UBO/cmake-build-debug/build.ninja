@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/seanp/Desktop/UBO/cmake-build-debug/
+cmake_ninja_workdir = /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target glad
 
@@ -49,10 +49,10 @@ cmake_ninja_workdir = /home/seanp/Desktop/UBO/cmake-build-debug/
 
 build cmake_object_order_depends_target_glad: phony || CMakeFiles/glad.dir
 
-build CMakeFiles/glad.dir/src/glad.c.o: C_COMPILER__glad_unscanned_Debug /home/seanp/Desktop/UBO/src/glad.c || cmake_object_order_depends_target_glad
+build CMakeFiles/glad.dir/src/glad.c.o: C_COMPILER__glad_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/src/glad.c || cmake_object_order_depends_target_glad
   DEP_FILE = CMakeFiles/glad.dir/src/glad.c.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/seanp/Desktop/UBO/include
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/include
   OBJECT_DIR = CMakeFiles/glad.dir
   OBJECT_FILE_DIR = CMakeFiles/glad.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/glad.dir/glad.pdb
@@ -84,10 +84,10 @@ build libglad.a: C_STATIC_LIBRARY_LINKER__glad_Debug CMakeFiles/glad.dir/src/gla
 
 build cmake_object_order_depends_target_OpenGL: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
-build CMakeFiles/OpenGL.dir/src/main.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /home/seanp/Desktop/UBO/src/main.cpp || cmake_object_order_depends_target_OpenGL
+build CMakeFiles/OpenGL.dir/src/main.cpp.o: CXX_COMPILER__OpenGL_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/src/main.cpp || cmake_object_order_depends_target_OpenGL
   DEP_FILE = CMakeFiles/OpenGL.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -I/home/seanp/Desktop/UBO/include -I/home/seanp/Desktop/UBO/glfw-3.4/include
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include
   OBJECT_DIR = CMakeFiles/OpenGL.dir
   OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/OpenGL.dir/
@@ -116,7 +116,7 @@ build OpenGL: CXX_EXECUTABLE_LINKER__OpenGL_Debug CMakeFiles/OpenGL.dir/src/main
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -127,7 +127,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/UBO -B/home/seanp/Desktop/UBO/cmake-build-debug
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/git/LearnOpenGL/UBO -B/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -145,7 +145,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -157,7 +157,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -169,7 +169,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -178,7 +178,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/seanp/Desktop/UBO/CMakeLists.txt
+# /home/seanp/Desktop/git/LearnOpenGL/UBO/CMakeLists.txt
 # =============================================================================
 
 
@@ -192,7 +192,7 @@ build glfw-3.4/uninstall: phony glfw-3.4/CMakeFiles/uninstall
 # Utility command for edit_cache
 
 build glfw-3.4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -203,7 +203,7 @@ build glfw-3.4/edit_cache: phony glfw-3.4/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build glfw-3.4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/UBO -B/home/seanp/Desktop/UBO/cmake-build-debug
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/git/LearnOpenGL/UBO -B/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -221,7 +221,7 @@ build glfw-3.4/list_install_components: phony
 # Utility command for install
 
 build glfw-3.4/CMakeFiles/install.util: CUSTOM_COMMAND glfw-3.4/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -233,7 +233,7 @@ build glfw-3.4/install: phony glfw-3.4/CMakeFiles/install.util
 # Utility command for install/local
 
 build glfw-3.4/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw-3.4/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -245,7 +245,7 @@ build glfw-3.4/install/local: phony glfw-3.4/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build glfw-3.4/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw-3.4/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -257,11 +257,11 @@ build glfw-3.4/install/strip: phony glfw-3.4/CMakeFiles/install/strip.util
 # Custom command for glfw-3.4/CMakeFiles/uninstall
 
 build glfw-3.4/CMakeFiles/uninstall | ${cmake_ninja_workdir}glfw-3.4/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/cmake_uninstall.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4 && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/cmake_uninstall.cmake
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/seanp/Desktop/UBO/glfw-3.4/CMakeLists.txt
+# /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -273,261 +273,261 @@ build glfw-3.4/CMakeFiles/uninstall | ${cmake_ninja_workdir}glfw-3.4/CMakeFiles/
 
 build cmake_object_order_depends_target_glfw: phony || glfw-3.4/src/fractional-scale-v1-client-protocol-code.h glfw-3.4/src/fractional-scale-v1-client-protocol.h glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h glfw-3.4/src/viewporter-client-protocol-code.h glfw-3.4/src/viewporter-client-protocol.h glfw-3.4/src/wayland-client-protocol-code.h glfw-3.4/src/wayland-client-protocol.h glfw-3.4/src/xdg-activation-v1-client-protocol-code.h glfw-3.4/src/xdg-activation-v1-client-protocol.h glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h glfw-3.4/src/xdg-shell-client-protocol-code.h glfw-3.4/src/xdg-shell-client-protocol.h
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/context.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/init.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/input.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/monitor.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/platform.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/vulkan.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/window.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/egl_context.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/null_init.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/null_window.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/posix_module.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/posix_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/posix_time.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/posix_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/posix_time.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/posix_thread.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/posix_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/x11_init.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/x11_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/x11_init.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/x11_monitor.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/x11_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/x11_monitor.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/x11_window.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/x11_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/x11_window.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/xkb_unicode.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/glx_context.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/glx_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/glx_context.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/wl_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/wl_init.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/wl_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/wl_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/wl_init.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/wl_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/wl_monitor.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/wl_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/wl_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/wl_monitor.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/wl_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/wl_window.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/wl_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/wl_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/wl_window.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/linux_joystick.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/linux_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/linux_joystick.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_PDB = glfw-3.4/src/libglfw3.pdb
 
-build glfw-3.4/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/UBO/glfw-3.4/src/posix_poll.c || cmake_object_order_depends_target_glfw
+build glfw-3.4/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_unscanned_Debug /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/posix_poll.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = glfw-3.4/src/CMakeFiles/glfw.dir/posix_poll.c.o.d
   FLAGS = -g -std=c99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/seanp/Desktop/UBO/glfw-3.4/include -I/home/seanp/Desktop/UBO/glfw-3.4/src -I/home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+  INCLUDES = -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/include -I/home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src -I/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
   OBJECT_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = glfw-3.4/src/CMakeFiles/glfw.dir
   TARGET_COMPILE_PDB = glfw-3.4/src/CMakeFiles/glfw.dir/glfw.pdb
@@ -561,7 +561,7 @@ build glfw-3.4/src/update_mappings: phony glfw-3.4/src/CMakeFiles/update_mapping
 # Utility command for edit_cache
 
 build glfw-3.4/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -572,7 +572,7 @@ build glfw-3.4/src/edit_cache: phony glfw-3.4/src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build glfw-3.4/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/UBO -B/home/seanp/Desktop/UBO/cmake-build-debug
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/git/LearnOpenGL/UBO -B/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -590,7 +590,7 @@ build glfw-3.4/src/list_install_components: phony
 # Utility command for install
 
 build glfw-3.4/src/CMakeFiles/install.util: CUSTOM_COMMAND glfw-3.4/src/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -602,7 +602,7 @@ build glfw-3.4/src/install: phony glfw-3.4/src/CMakeFiles/install.util
 # Utility command for install/local
 
 build glfw-3.4/src/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw-3.4/src/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -614,7 +614,7 @@ build glfw-3.4/src/install/local: phony glfw-3.4/src/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build glfw-3.4/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw-3.4/src/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -625,8 +625,8 @@ build glfw-3.4/src/install/strip: phony glfw-3.4/src/CMakeFiles/install/strip.ut
 #############################################
 # Custom command for glfw-3.4/src/wayland-client-protocol.h
 
-build glfw-3.4/src/wayland-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/wayland-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/wayland.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/wayland.xml wayland-client-protocol.h
+build glfw-3.4/src/wayland-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/wayland-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/wayland.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/wayland.xml wayland-client-protocol.h
   DESC = Generating wayland-client-protocol.h
   restat = 1
 
@@ -634,8 +634,8 @@ build glfw-3.4/src/wayland-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/sr
 #############################################
 # Custom command for glfw-3.4/src/wayland-client-protocol-code.h
 
-build glfw-3.4/src/wayland-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/wayland-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/wayland.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/wayland.xml wayland-client-protocol-code.h
+build glfw-3.4/src/wayland-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/wayland-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/wayland.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/wayland.xml wayland-client-protocol-code.h
   DESC = Generating wayland-client-protocol-code.h
   restat = 1
 
@@ -643,8 +643,8 @@ build glfw-3.4/src/wayland-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3
 #############################################
 # Custom command for glfw-3.4/src/viewporter-client-protocol.h
 
-build glfw-3.4/src/viewporter-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/viewporter-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/viewporter.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/viewporter.xml viewporter-client-protocol.h
+build glfw-3.4/src/viewporter-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/viewporter-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/viewporter.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/viewporter.xml viewporter-client-protocol.h
   DESC = Generating viewporter-client-protocol.h
   restat = 1
 
@@ -652,8 +652,8 @@ build glfw-3.4/src/viewporter-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4
 #############################################
 # Custom command for glfw-3.4/src/viewporter-client-protocol-code.h
 
-build glfw-3.4/src/viewporter-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/viewporter-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/viewporter.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/viewporter.xml viewporter-client-protocol-code.h
+build glfw-3.4/src/viewporter-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/viewporter-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/viewporter.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/viewporter.xml viewporter-client-protocol-code.h
   DESC = Generating viewporter-client-protocol-code.h
   restat = 1
 
@@ -661,8 +661,8 @@ build glfw-3.4/src/viewporter-client-protocol-code.h | ${cmake_ninja_workdir}glf
 #############################################
 # Custom command for glfw-3.4/src/xdg-shell-client-protocol.h
 
-build glfw-3.4/src/xdg-shell-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-shell-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-shell.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-shell.xml xdg-shell-client-protocol.h
+build glfw-3.4/src/xdg-shell-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-shell-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-shell.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-shell.xml xdg-shell-client-protocol.h
   DESC = Generating xdg-shell-client-protocol.h
   restat = 1
 
@@ -670,8 +670,8 @@ build glfw-3.4/src/xdg-shell-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/
 #############################################
 # Custom command for glfw-3.4/src/xdg-shell-client-protocol-code.h
 
-build glfw-3.4/src/xdg-shell-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-shell-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-shell.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-shell.xml xdg-shell-client-protocol-code.h
+build glfw-3.4/src/xdg-shell-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-shell-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-shell.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-shell.xml xdg-shell-client-protocol-code.h
   DESC = Generating xdg-shell-client-protocol-code.h
   restat = 1
 
@@ -679,8 +679,8 @@ build glfw-3.4/src/xdg-shell-client-protocol-code.h | ${cmake_ninja_workdir}glfw
 #############################################
 # Custom command for glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h
 
-build glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol.h
+build glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol.h
   DESC = Generating idle-inhibit-unstable-v1-client-protocol.h
   restat = 1
 
@@ -688,8 +688,8 @@ build glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol.h | ${cmake_ninja_wo
 #############################################
 # Custom command for glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h
 
-build glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol-code.h
+build glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol-code.h
   DESC = Generating idle-inhibit-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -697,8 +697,8 @@ build glfw-3.4/src/idle-inhibit-unstable-v1-client-protocol-code.h | ${cmake_nin
 #############################################
 # Custom command for glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h
 
-build glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol.h
+build glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol.h
   DESC = Generating pointer-constraints-unstable-v1-client-protocol.h
   restat = 1
 
@@ -706,8 +706,8 @@ build glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol.h | ${cmake_n
 #############################################
 # Custom command for glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h
 
-build glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol-code.h
+build glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol-code.h
   DESC = Generating pointer-constraints-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -715,8 +715,8 @@ build glfw-3.4/src/pointer-constraints-unstable-v1-client-protocol-code.h | ${cm
 #############################################
 # Custom command for glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h
 
-build glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol.h
+build glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol.h
   DESC = Generating relative-pointer-unstable-v1-client-protocol.h
   restat = 1
 
@@ -724,8 +724,8 @@ build glfw-3.4/src/relative-pointer-unstable-v1-client-protocol.h | ${cmake_ninj
 #############################################
 # Custom command for glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h
 
-build glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol-code.h
+build glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol-code.h
   DESC = Generating relative-pointer-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -733,8 +733,8 @@ build glfw-3.4/src/relative-pointer-unstable-v1-client-protocol-code.h | ${cmake
 #############################################
 # Custom command for glfw-3.4/src/fractional-scale-v1-client-protocol.h
 
-build glfw-3.4/src/fractional-scale-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/fractional-scale-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol.h
+build glfw-3.4/src/fractional-scale-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/fractional-scale-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol.h
   DESC = Generating fractional-scale-v1-client-protocol.h
   restat = 1
 
@@ -742,8 +742,8 @@ build glfw-3.4/src/fractional-scale-v1-client-protocol.h | ${cmake_ninja_workdir
 #############################################
 # Custom command for glfw-3.4/src/fractional-scale-v1-client-protocol-code.h
 
-build glfw-3.4/src/fractional-scale-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/fractional-scale-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol-code.h
+build glfw-3.4/src/fractional-scale-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/fractional-scale-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol-code.h
   DESC = Generating fractional-scale-v1-client-protocol-code.h
   restat = 1
 
@@ -751,8 +751,8 @@ build glfw-3.4/src/fractional-scale-v1-client-protocol-code.h | ${cmake_ninja_wo
 #############################################
 # Custom command for glfw-3.4/src/xdg-activation-v1-client-protocol.h
 
-build glfw-3.4/src/xdg-activation-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-activation-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol.h
+build glfw-3.4/src/xdg-activation-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-activation-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol.h
   DESC = Generating xdg-activation-v1-client-protocol.h
   restat = 1
 
@@ -760,8 +760,8 @@ build glfw-3.4/src/xdg-activation-v1-client-protocol.h | ${cmake_ninja_workdir}g
 #############################################
 # Custom command for glfw-3.4/src/xdg-activation-v1-client-protocol-code.h
 
-build glfw-3.4/src/xdg-activation-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-activation-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol-code.h
+build glfw-3.4/src/xdg-activation-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-activation-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol-code.h
   DESC = Generating xdg-activation-v1-client-protocol-code.h
   restat = 1
 
@@ -769,8 +769,8 @@ build glfw-3.4/src/xdg-activation-v1-client-protocol-code.h | ${cmake_ninja_work
 #############################################
 # Custom command for glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h
 
-build glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol.h
+build glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner client-header /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol.h
   DESC = Generating xdg-decoration-unstable-v1-client-protocol.h
   restat = 1
 
@@ -778,8 +778,8 @@ build glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol.h | ${cmake_ninja_
 #############################################
 # Custom command for glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h
 
-build glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol-code.h
+build glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /usr/bin/wayland-scanner private-code /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol-code.h
   DESC = Generating xdg-decoration-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -788,12 +788,12 @@ build glfw-3.4/src/xdg-decoration-unstable-v1-client-protocol-code.h | ${cmake_n
 # Custom command for glfw-3.4/src/CMakeFiles/update_mappings
 
 build glfw-3.4/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}glfw-3.4/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/UBO/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/seanp/Desktop/UBO/glfw-3.4/CMakeLists.txt
+# /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMakeLists.txt
 # =============================================================================
 
 
@@ -801,7 +801,7 @@ build glfw-3.4/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}glfw-3.4/s
 # Utility command for edit_cache
 
 build glfw-3.4/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -812,7 +812,7 @@ build glfw-3.4/docs/edit_cache: phony glfw-3.4/docs/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build glfw-3.4/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/UBO -B/home/seanp/Desktop/UBO/cmake-build-debug
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S/home/seanp/Desktop/git/LearnOpenGL/UBO -B/home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -830,7 +830,7 @@ build glfw-3.4/docs/list_install_components: phony
 # Utility command for install
 
 build glfw-3.4/docs/CMakeFiles/install.util: CUSTOM_COMMAND glfw-3.4/docs/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -842,7 +842,7 @@ build glfw-3.4/docs/install: phony glfw-3.4/docs/CMakeFiles/install.util
 # Utility command for install/local
 
 build glfw-3.4/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw-3.4/docs/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -854,7 +854,7 @@ build glfw-3.4/docs/install/local: phony glfw-3.4/docs/CMakeFiles/install/local.
 # Utility command for install/strip
 
 build glfw-3.4/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw-3.4/docs/all
-  COMMAND = cd /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/docs && /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -880,28 +880,28 @@ build update_mappings: phony glfw-3.4/src/update_mappings
 # =============================================================================
 
 #############################################
-# Folder: /home/seanp/Desktop/UBO/cmake-build-debug
+# Folder: /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug
 
 build all: phony libglad.a OpenGL glfw-3.4/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4
+# Folder: /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4
 
 build glfw-3.4/all: phony glfw-3.4/src/all glfw-3.4/docs/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/docs
+# Folder: /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/docs
 
 build glfw-3.4/docs/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /home/seanp/Desktop/UBO/cmake-build-debug/glfw-3.4/src
+# Folder: /home/seanp/Desktop/git/LearnOpenGL/UBO/cmake-build-debug/glfw-3.4/src
 
 build glfw-3.4/src/all: phony glfw-3.4/src/libglfw3.a
 
@@ -912,14 +912,14 @@ build glfw-3.4/src/all: phony glfw-3.4/src/libglfw3.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/seanp/Desktop/UBO/CMakeLists.txt /home/seanp/Desktop/UBO/glfw-3.4/CMake/cmake_uninstall.cmake.in /home/seanp/Desktop/UBO/glfw-3.4/CMake/glfw3.pc.in /home/seanp/Desktop/UBO/glfw-3.4/CMake/glfw3Config.cmake.in /home/seanp/Desktop/UBO/glfw-3.4/CMakeLists.txt /home/seanp/Desktop/UBO/glfw-3.4/docs/CMakeLists.txt /home/seanp/Desktop/UBO/glfw-3.4/src/CMakeLists.txt /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindDoxygen.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFontconfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFreetype.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindOpenGL.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPkgConfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindX11.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /usr/lib64/cmake/assimp-5.0/assimp-config-version.cmake /usr/lib64/cmake/assimp-5.0/assimp-config.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets-release.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindDoxygen.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFontconfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFreetype.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindOpenGL.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPkgConfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindX11.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /home/seanp/Desktop/git/LearnOpenGL/UBO/CMakeLists.txt /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/cmake_uninstall.cmake.in /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/glfw3.pc.in /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/glfw3Config.cmake.in /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMakeLists.txt /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/docs/CMakeLists.txt /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/CMakeLists.txt /usr/lib64/cmake/assimp-5.0/assimp-config-version.cmake /usr/lib64/cmake/assimp-5.0/assimp-config.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets-release.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/seanp/Desktop/UBO/CMakeLists.txt /home/seanp/Desktop/UBO/glfw-3.4/CMake/cmake_uninstall.cmake.in /home/seanp/Desktop/UBO/glfw-3.4/CMake/glfw3.pc.in /home/seanp/Desktop/UBO/glfw-3.4/CMake/glfw3Config.cmake.in /home/seanp/Desktop/UBO/glfw-3.4/CMakeLists.txt /home/seanp/Desktop/UBO/glfw-3.4/docs/CMakeLists.txt /home/seanp/Desktop/UBO/glfw-3.4/src/CMakeLists.txt /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindDoxygen.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFontconfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFreetype.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindOpenGL.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPkgConfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindX11.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /usr/lib64/cmake/assimp-5.0/assimp-config-version.cmake /usr/lib64/cmake/assimp-5.0/assimp-config.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets-release.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystem.cmake.in /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckFunctionExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckIncludeFiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindDoxygen.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFontconfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindFreetype.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindOpenGL.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindPkgConfig.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/FindX11.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/Linux.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /home/seanp/Desktop/git/LearnOpenGL/UBO/CMakeLists.txt /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/cmake_uninstall.cmake.in /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/glfw3.pc.in /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMake/glfw3Config.cmake.in /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/CMakeLists.txt /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/docs/CMakeLists.txt /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/src/CMakeLists.txt /usr/lib64/cmake/assimp-5.0/assimp-config-version.cmake /usr/lib64/cmake/assimp-5.0/assimp-config.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets-release.cmake /usr/lib64/cmake/assimp-5.0/assimpTargets.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

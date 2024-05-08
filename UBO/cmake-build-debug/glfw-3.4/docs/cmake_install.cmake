@@ -1,4 +1,4 @@
-# Install script for directory: /home/seanp/Desktop/UBO/glfw-3.4/docs
+# Install script for directory: /home/seanp/Desktop/git/LearnOpenGL/UBO/glfw-3.4/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
