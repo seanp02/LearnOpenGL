@@ -1,4 +1,4 @@
-/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -G Ninja -S /home/seanp/Desktop/Geometry_shader_normal -B /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug
+/home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -G Ninja -S /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal -B /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug
 -- The C compiler identification is GNU 13.2.1
 -- The CXX compiler identification is GNU 13.2.1
 -- Detecting C compiler ABI info
@@ -54,6 +54,6 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Looking for IceConnectionNumber in ICE - found
 -- Found Doxygen: /usr/bin/doxygen (found version "1.9.7") found components: doxygen 
 -- Documentation generation requires Doxygen 1.9.8 or later
--- Configuring done (1.3s)
+-- Configuring done (1.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug
+-- Build files have been written to: /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug

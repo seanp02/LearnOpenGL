@@ -6,15 +6,23 @@ in VS_OUT {
     vec3 normal;
 } gs_in[];
 
-const float MAGNITUDE = 0.5;
+const float MAGNITUDE = 0.3;
 
 uniform mat4 projection;
 
 void GenerateLine(int index)
 {
-    gl_Position = projection * gl_in[index].gl_Position;
+    vec4 pos =gl_in[index].gl_Position;
+    gl_Position = projection * pos;
     EmitVertex();
-    gl_Position = projection * (gl_in[index].gl_Position + vec4(gs_in[index].normal, 0.0) * MAGNITUDE);
+    pos += vec4(gs_in[index].normal, 0.0) * MAGNITUDE;
+    gl_Position = projection * pos;
+    EmitVertex();
+    pos += vec4(gs_in[index].normal.x, vec3(0.0)) * MAGNITUDE;
+    gl_Position = projection * pos;
+    EmitVertex();
+    pos += vec4(gs_in[index].normal, 0.0) * MAGNITUDE;
+    gl_Position = projection * pos;
     EmitVertex();
     EndPrimitive();
 }

@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.out
+        /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.out
+        /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FLhTxy"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FLhTxy"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tL56En"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tL56En"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FLhTxy'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tL56En'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_f7687
-        [1/2] /usr/lib64/ccache/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_61b21
+        [1/2] /usr/lib64/ccache/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: aarch64-redhat-linux
@@ -103,7 +103,7 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_470ce.dir/CMakeCCompilerABI.c.o' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_470ce.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/lib64/ccache/cc  -v CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o -o cmTC_f7687   && :
+        [2/2] : && /usr/lib64/ccache/cc  -v CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o -o cmTC_61b21   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper
@@ -114,9 +114,9 @@ events:
         gcc version 13.2.1 20240316 (Red Hat 13.2.1-7) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7687' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f7687.'
-         /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFR7XJN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_f7687 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7687' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f7687.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61b21' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_61b21.'
+         /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cco0JD2K.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_61b21 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61b21' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_61b21.'
         
       exitCode: 0
   -
@@ -148,10 +148,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FLhTxy']
+        ignore line: [Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tL56En']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_f7687]
-        ignore line: [[1/2] /usr/lib64/ccache/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_61b21]
+        ignore line: [[1/2] /usr/lib64/ccache/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: aarch64-redhat-linux]
@@ -180,7 +180,7 @@ events:
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_470ce.dir/CMakeCCompilerABI.c.o' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_470ce.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/lib64/ccache/cc  -v CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o -o cmTC_f7687   && :]
+        ignore line: [[2/2] : && /usr/lib64/ccache/cc  -v CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o -o cmTC_61b21   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper]
@@ -191,13 +191,13 @@ events:
         ignore line: [gcc version 13.2.1 20240316 (Red Hat 13.2.1-7) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7687' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f7687.']
-        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFR7XJN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_f7687 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61b21' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_61b21.']
+        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cco0JD2K.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_61b21 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/aarch64-redhat-linux/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccFR7XJN.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cco0JD2K.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -213,7 +213,7 @@ events:
           arg [-EL] ==> ignore
           arg [-maarch64linux] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f7687] ==> ignore
+          arg [cmTC_61b21] ==> ignore
           arg [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o]
@@ -222,7 +222,7 @@ events:
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/aarch64-redhat-linux/13/../../..] ==> dir [/usr/lib/gcc/aarch64-redhat-linux/13/../../..]
-          arg [CMakeFiles/cmTC_f7687.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_61b21.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -259,8 +259,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1iu4ZS"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1iu4ZS"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iCaB5P"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iCaB5P"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -269,10 +269,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1iu4ZS'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iCaB5P'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_a58a6
-        [1/2] /usr/lib64/ccache/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_d5fa2
+        [1/2] /usr/lib64/ccache/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: aarch64-redhat-linux
@@ -304,7 +304,7 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_d3670.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d3670.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/lib64/ccache/c++  -v CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a58a6   && :
+        [2/2] : && /usr/lib64/ccache/c++  -v CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d5fa2   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper
@@ -315,9 +315,9 @@ events:
         gcc version 13.2.1 20240316 (Red Hat 13.2.1-7) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a58a6' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_a58a6.'
-         /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIX14K7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_a58a6 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a58a6' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_a58a6.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5fa2' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d5fa2.'
+         /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cctW0Z8f.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d5fa2 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5fa2' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d5fa2.'
         
       exitCode: 0
   -
@@ -355,10 +355,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1iu4ZS']
+        ignore line: [Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iCaB5P']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_a58a6]
-        ignore line: [[1/2] /usr/lib64/ccache/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_d5fa2]
+        ignore line: [[1/2] /usr/lib64/ccache/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o -c /home/seanp/Desktop/develop/clion/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: aarch64-redhat-linux]
@@ -390,7 +390,7 @@ events:
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_d3670.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d3670.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/lib64/ccache/c++  -v CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a58a6   && :]
+        ignore line: [[2/2] : && /usr/lib64/ccache/c++  -v CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d5fa2   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper]
@@ -401,13 +401,13 @@ events:
         ignore line: [gcc version 13.2.1 20240316 (Red Hat 13.2.1-7) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/13/:/usr/libexec/gcc/aarch64-redhat-linux/:/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-redhat-linux/13/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/aarch64-redhat-linux/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a58a6' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_a58a6.']
-        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIX14K7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_a58a6 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5fa2' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d5fa2.']
+        link line: [ /usr/libexec/gcc/aarch64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cctW0Z8f.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d5fa2 /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o -L/usr/lib/gcc/aarch64-redhat-linux/13 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/aarch64-redhat-linux/13/../../.. CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-redhat-linux/13/crtend.o /usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/aarch64-redhat-linux/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/aarch64-redhat-linux/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/aarch64-redhat-linux/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccIX14K7.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cctW0Z8f.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -423,7 +423,7 @@ events:
           arg [-EL] ==> ignore
           arg [-maarch64linux] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a58a6] ==> ignore
+          arg [cmTC_d5fa2] ==> ignore
           arg [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/13/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o] ==> obj [/usr/lib/gcc/aarch64-redhat-linux/13/crtbegin.o]
@@ -432,7 +432,7 @@ events:
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/aarch64-redhat-linux/13/../../..] ==> dir [/usr/lib/gcc/aarch64-redhat-linux/13/../../..]
-          arg [CMakeFiles/cmTC_a58a6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d5fa2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -467,22 +467,22 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UapdJ7"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UapdJ7"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HoqA9q"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HoqA9q"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UapdJ7'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HoqA9q'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_1dd0b
-        [1/2] /usr/lib64/ccache/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_1dd0b.dir/src.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UapdJ7/src.c
-        [2/2] : && /usr/lib64/ccache/cc   CMakeFiles/cmTC_1dd0b.dir/src.c.o -o cmTC_1dd0b   && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_978dc
+        [1/2] /usr/lib64/ccache/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_978dc.dir/src.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HoqA9q/src.c
+        [2/2] : && /usr/lib64/ccache/cc   CMakeFiles/cmTC_978dc.dir/src.c.o -o cmTC_978dc   && :
         
       exitCode: 0
   -
@@ -493,22 +493,22 @@ events:
     checks:
       - "Looking for memfd_create"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iE8t7m"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iE8t7m"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aqVzx6"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aqVzx6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "HAVE_MEMFD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iE8t7m'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aqVzx6'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_27272
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -fdiagnostics-color=always -o CMakeFiles/cmTC_27272.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iE8t7m/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=memfd_create  CMakeFiles/cmTC_27272.dir/CheckFunctionExists.c.o -o cmTC_27272   && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_fec34
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -fdiagnostics-color=always -o CMakeFiles/cmTC_fec34.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aqVzx6/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=memfd_create  CMakeFiles/cmTC_fec34.dir/CheckFunctionExists.c.o -o cmTC_fec34   && :
         
       exitCode: 0
   -
@@ -520,22 +520,22 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H9yuHl"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H9yuHl"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rh8v9n"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rh8v9n"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H9yuHl'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rh8v9n'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_f36c9
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_f36c9.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-H9yuHl/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay  CMakeFiles/cmTC_f36c9.dir/CheckFunctionExists.c.o -o cmTC_f36c9  /usr/lib64/libX11.so  /usr/lib64/libXext.so && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_2c962
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_2c962.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rh8v9n/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay  CMakeFiles/cmTC_2c962.dir/CheckFunctionExists.c.o -o cmTC_2c962  /usr/lib64/libX11.so  /usr/lib64/libXext.so && :
         
       exitCode: 0
   -
@@ -547,22 +547,22 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FdVQnJ"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FdVQnJ"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YtB0Gp"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YtB0Gp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FdVQnJ'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YtB0Gp'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_cf74c
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_cf74c.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FdVQnJ/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=gethostbyname  CMakeFiles/cmTC_cf74c.dir/CheckFunctionExists.c.o -o cmTC_cf74c   && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_caccd
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_caccd.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YtB0Gp/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=gethostbyname  CMakeFiles/cmTC_caccd.dir/CheckFunctionExists.c.o -o cmTC_caccd   && :
         
       exitCode: 0
   -
@@ -574,22 +574,22 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oUftlC"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oUftlC"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vEWZdv"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vEWZdv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oUftlC'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vEWZdv'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_97283
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_97283.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oUftlC/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=connect  CMakeFiles/cmTC_97283.dir/CheckFunctionExists.c.o -o cmTC_97283   && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_0af64
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_0af64.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vEWZdv/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=connect  CMakeFiles/cmTC_0af64.dir/CheckFunctionExists.c.o -o cmTC_0af64   && :
         
       exitCode: 0
   -
@@ -601,22 +601,22 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gLLIew"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gLLIew"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TRUajh"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TRUajh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gLLIew'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TRUajh'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_0a38f
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_0a38f.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gLLIew/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=remove  CMakeFiles/cmTC_0a38f.dir/CheckFunctionExists.c.o -o cmTC_0a38f   && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_01a22
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_01a22.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TRUajh/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=remove  CMakeFiles/cmTC_01a22.dir/CheckFunctionExists.c.o -o cmTC_01a22   && :
         
       exitCode: 0
   -
@@ -628,22 +628,22 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mPrCnH"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mPrCnH"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IuqjWA"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IuqjWA"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mPrCnH'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IuqjWA'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_825dc
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_825dc.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mPrCnH/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=shmat  CMakeFiles/cmTC_825dc.dir/CheckFunctionExists.c.o -o cmTC_825dc   && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_5ebee
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_5ebee.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IuqjWA/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=shmat  CMakeFiles/cmTC_5ebee.dir/CheckFunctionExists.c.o -o cmTC_5ebee   && :
         
       exitCode: 0
   -
@@ -655,22 +655,22 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eTMHSt"
-      binary: "/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eTMHSt"
+      source: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S9Y7F1"
+      binary: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S9Y7F1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/seanp/Desktop/Geometry_shader_normal/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eTMHSt'
+        Change Dir: '/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S9Y7F1'
         
-        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_8cd8b
-        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_8cd8b.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eTMHSt/CheckFunctionExists.c
-        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber  CMakeFiles/cmTC_8cd8b.dir/CheckFunctionExists.c.o -o cmTC_8cd8b  -lICE && :
+        Run Build Command(s): /home/seanp/Desktop/develop/clion/bin/ninja/linux/aarch64/ninja -v cmTC_4b422
+        [1/2] /usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_4b422.dir/CheckFunctionExists.c.o -c /home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_normal/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S9Y7F1/CheckFunctionExists.c
+        [2/2] : && /usr/lib64/ccache/cc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber  CMakeFiles/cmTC_4b422.dir/CheckFunctionExists.c.o -o cmTC_4b422  -lICE && :
         
       exitCode: 0
 ...
