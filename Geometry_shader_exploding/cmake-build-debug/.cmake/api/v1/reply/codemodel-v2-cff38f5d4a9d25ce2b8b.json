@@ -115,21 +115,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL-Debug-66beab2345532311aba7.json",
+					"jsonFile" : "target-OpenGL-Debug-e3daa279e22f10d78c95.json",
 					"name" : "OpenGL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-5caa22ba0e39b3575cf9.json",
+					"jsonFile" : "target-glad-Debug-be9bfd04890a30b60c5b.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@e31d138322de72f6ba56",
-					"jsonFile" : "target-glfw-Debug-fec17e3bbe4e1d3d43ad.json",
+					"jsonFile" : "target-glfw-Debug-6b7919c6b3ada18f019b.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -153,8 +153,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/seanp/Desktop/Geometry_shader_exploding/cmake-build-debug",
-		"source" : "/home/seanp/Desktop/Geometry_shader_exploding"
+		"build" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_exploding/cmake-build-debug",
+		"source" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_exploding"
 	},
 	"version" : 
 	{

@@ -66,11 +66,11 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "/home/seanp/Desktop/Geometry_shader_exploding/include"
+					"path" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_exploding/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/seanp/Desktop/Geometry_shader_exploding/glfw-3.4/include"
+					"path" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_exploding/glfw-3.4/include"
 				}
 			],
 			"language" : "CXX",

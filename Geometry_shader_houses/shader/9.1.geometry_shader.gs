@@ -9,7 +9,7 @@ in VS_OUT {
 out vec3 fColor;
 
 void build_house(vec4 position)
-{    
+{
     gl_Position = position + vec4( 0.0, -0.4, 0.0, 0.0); // 0:bottom
     fColor = vec3(1.0, 1.0, 1.0);
     EmitVertex();

@@ -967,8 +967,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/seanp/Desktop/Geometry_shader_exploding/cmake-build-debug",
-		"source" : "/home/seanp/Desktop/Geometry_shader_exploding"
+		"build" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_exploding/cmake-build-debug",
+		"source" : "/home/seanp/Desktop/git/LearnOpenGL/Geometry_shader_exploding"
 	},
 	"version" : 
 	{
